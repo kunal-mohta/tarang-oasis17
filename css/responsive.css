@@ -121,9 +121,12 @@
 
 /* xs */
 @media (max-width: 767px) {
-
+  .main-nav{
+    position:absolute;
+    top:5px;
+  }
   .main-nav .container {
-    display: none;
+    display: block;
   }
   
   .fixed-menu .container {
@@ -273,14 +276,21 @@
     width: 100%;    
     padding: 70px 25px 110px;
   }
+  
+  .img-responsive{
+    width:100%;
+  }
 
+  #added{
+    display:none;
+  }
 }
 
 /* XS Portrait */
 @media (max-width: 479px) {
 
   .main-nav .container {
-    display: none;
+    display: block;
   }
 
   .fixed-menu .container {
